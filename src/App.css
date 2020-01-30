@@ -1,3 +1,43 @@
+div {
+  border-width:2px;
+  border-color: black;
+  border-style: solid;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  border-width:2px;
+  border-color: black;
+  border-style: solid;
+}
+
+#app-grid {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  height: 750px;
+}
+
+#header-grid {
+  display: grid;
+  grid-template-columns: 1fr 100px
+}
+
+#todolistlist-grid {
+  display: grid;
+  height: 700px;
+  grid-template-rows: 1fr 70px
+}
+
+.todo-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr
+}
+
+/*
+
 .App {
   text-align: center;
 }
@@ -35,4 +75,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
